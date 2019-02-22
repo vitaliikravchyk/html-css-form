@@ -1,0 +1,62 @@
+header {
+
+	width: 100%;
+
+}
+
+.nav {
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 200px;
+
+}
+
+.nav-btn {
+
+	height: 50px;
+	width: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #abb4cd;
+	border-radius: 5px;
+	background-color: #f7f7f9;
+
+	.nav-btn__span {
+
+		width: 55%;
+		background-size: 20px;
+		background-repeat: no-repeat;
+		background-position-y: center;
+		text-align: right;
+		color: #abb4cd;
+		font-weight: 700;
+	
+	}
+
+	.nav-btn__span--back {
+
+		background-image: url(../img/icons/left-arrow-key.svg);
+
+	}
+
+	.nav-btn__span--sign-in {
+
+		background-image: url(../img/icons/profile.svg);
+
+	}
+
+}
+
+.nav-logo {
+
+	background-image: url(../img/icons/nav-logo.jpeg);
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
